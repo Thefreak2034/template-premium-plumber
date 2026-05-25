@@ -1,0 +1,184 @@
+{
+  "niche": "electrician",
+  "niche_label": "Electrician",
+  "is_tradie": true,
+  "schema_type": "Electrician",
+  "top_bar_text": "Need an Electrician?",
+  "default_tagline": "24/7 Emergency Service",
+  "default_service_keyword": "Licensed Electrician",
+  "default_meta_description": "{{business_name}} — professional electrical services in {{suburb}} and surrounding areas. Licensed electrician for homes and businesses. 24/7 emergency callouts. Call {{phone}} for a free quote.",
+  "demo_business_name": "Buzz Electrical",
+  "demo_suburb": "Hawthorn",
+  "demo_phone": "0412 345 678",
+  "demo_email": "info@buzzelectrical.com.au",
+  "demo_address": "718 Glenferrie Rd, Hawthorn VIC 3122",
+  "demo_street_address": "718 Glenferrie Rd",
+  "demo_state": "VIC",
+  "demo_postcode": "3122",
+  "default_about_text": "We're a team of licensed and experienced electricians providing reliable electrical services to homes and businesses. With years of experience and a commitment to quality workmanship, we take pride in delivering safe, compliant, and efficient electrical solutions. No job is too big or too small — from a single powerpoint to a full commercial fit-out.",
+  "default_primary_color": "#1e3a5f",
+  "default_secondary_color": "#f59e0b",
+  "default_hours": "Mon–Fri: 7am–6pm, Sat: 8am–2pm, 24/7 Emergency Callouts",
+  "default_hours_schema": "Mo-Fr 07:00-18:00, Sa 08:00-14:00",
+  "default_cta_text": "Get a Free Quote",
+  "trust_badges": [
+    { "icon": "shield-check", "text": "Licensed & Insured" },
+    { "icon": "clock",        "text": "24/7 Emergency"     },
+    { "icon": "check-circle", "text": "Free Quotes"        }
+  ],
+  "default_stats": [
+    { "number": "500+",  "label": "Jobs Completed"  },
+    { "number": "10+",   "label": "Years Experience" },
+    { "number": "1000+", "label": "Happy Customers"  }
+  ],
+  "demo_stats": [
+    { "number": "500+",  "label": "Jobs Completed"  },
+    { "number": "15+",   "label": "Years Experience" },
+    { "number": "1200+", "label": "Happy Customers"  }
+  ],
+  "services": [
+    {
+      "name": "Lighting Installation",
+      "description": "Indoor and outdoor lighting design, installation, and upgrades for homes and businesses.",
+      "icon": "lightbulb",
+      "image_token": "{{service_image_1}}"
+    },
+    {
+      "name": "Powerpoint & Switchboard Upgrades",
+      "description": "Upgrade your switchboard and add powerpoints to meet modern electrical demands safely.",
+      "icon": "zap",
+      "image_token": "{{service_image_2}}"
+    },
+    {
+      "name": "Safety Inspections",
+      "description": "Comprehensive electrical safety inspections to identify hazards and ensure compliance.",
+      "icon": "clipboard-check",
+      "image_token": "{{service_image_3}}"
+    },
+    {
+      "name": "Emergency Electrical Repairs",
+      "description": "Available 24/7 for urgent electrical faults, power outages, and safety hazards.",
+      "icon": "alert-triangle",
+      "image_token": "{{service_image_4}}",
+      "highlight": true,
+      "badge_text": "24/7 Service"
+    },
+    {
+      "name": "Ceiling Fan Installation",
+      "description": "Professional ceiling fan supply and installation for year-round comfort.",
+      "icon": "wind",
+      "image_token": "{{service_image_5}}"
+    },
+    {
+      "name": "Smoke Alarm Installation",
+      "description": "Installation and testing of compliant smoke alarms to keep your family safe.",
+      "icon": "bell",
+      "image_token": "{{service_image_6}}"
+    },
+    {
+      "name": "Commercial Electrician",
+      "description": "Electrical fit-outs, maintenance, and compliance for offices, shops, and commercial premises.",
+      "icon": "building",
+      "image_token": "{{service_image_7}}"
+    },
+    {
+      "name": "Air Conditioning Installation",
+      "description": "Split system and ducted air conditioning installation by a licensed electrician.",
+      "icon": "thermometer",
+      "image_token": "{{service_image_8}}"
+    },
+    {
+      "name": "3 Phase Power",
+      "description": "3 phase power installation and upgrades for workshops, machinery, and commercial equipment.",
+      "icon": "activity",
+      "image_token": "{{service_image_9}}"
+    }
+  ],
+  "why_choose_us": [
+    {
+      "title": "Licensed & Fully Insured",
+      "description": "Fully licensed electrician with comprehensive insurance for your peace of mind.",
+      "icon": "shield-check"
+    },
+    {
+      "title": "On Time, Every Time",
+      "description": "We respect your time. We show up when we say we will, or we'll let you know in advance.",
+      "icon": "clock"
+    },
+    {
+      "title": "Upfront Pricing",
+      "description": "No hidden fees or surprise charges. You'll know the cost before any work begins.",
+      "icon": "dollar-sign"
+    },
+    {
+      "title": "Clean & Tidy Work",
+      "description": "We leave your home or business as clean as we found it. Every time.",
+      "icon": "sparkles"
+    },
+    {
+      "title": "24/7 Emergency Callouts",
+      "description": "Electrical emergencies don't keep business hours. Neither do we.",
+      "icon": "phone"
+    },
+    {
+      "title": "Satisfaction Guaranteed",
+      "description": "We stand behind our work. If you're not happy, we'll make it right.",
+      "icon": "thumbs-up"
+    }
+  ],
+  "how_we_work": [
+    {
+      "step": 1,
+      "title": "Send Us Your Details",
+      "description": "Fill out our quick contact form or give us a call with your details.",
+      "icon": "clipboard"
+    },
+    {
+      "step": 2,
+      "title": "We'll Call to Discuss",
+      "description": "We'll get back to you to understand exactly what you need.",
+      "icon": "phone-call"
+    },
+    {
+      "step": 3,
+      "title": "Receive Your Quote",
+      "description": "You'll get a clear, upfront quote — no surprises, no hidden fees.",
+      "icon": "file-text"
+    },
+    {
+      "step": 4,
+      "title": "We Get to Work",
+      "description": "Once you give us the go-ahead, we'll schedule and complete the job.",
+      "icon": "wrench"
+    }
+  ],
+  "demo_reviews": [
+    {
+      "text": "Called Buzz Electrical for a switchboard upgrade and they were fantastic. Arrived on time, explained everything clearly, and left the place spotless. Highly recommend.",
+      "name": "Mark T.",
+      "rating": 5
+    },
+    {
+      "text": "Had an emergency power outage at 9pm on a Saturday. Buzz Electrical answered the phone and had someone at our door within the hour. Absolute legends.",
+      "name": "Sarah L.",
+      "rating": 5
+    },
+    {
+      "text": "We've used Buzz Electrical for all our office electrical work. Professional, reliable, and their pricing is always fair. Wouldn't go anywhere else.",
+      "name": "David R.",
+      "rating": 5
+    }
+  ],
+  "image_prompts": {
+    "hero": "A professional Australian electrician in clean navy work uniform installing a modern light fixture in a bright contemporary Australian home, natural daylight, shot from a low angle showing skilled hands at work, photorealistic, high quality",
+    "service_1": "Professional modern LED downlights installed in a clean white Australian home ceiling, warm lighting glow, interior photography style, no people",
+    "service_2": "A modern residential electrical switchboard with neat wiring and safety switches, Australian standard, clean professional installation, close-up detail shot",
+    "service_3": "An electrician using a multimeter to test a powerpoint in an Australian home, focus on hands and equipment, professional and safe, photorealistic",
+    "service_4": "Emergency electrical repair scene in an Australian home at night, focus on tools and torch light, dramatic but professional, no faces visible",
+    "service_5": "A modern white ceiling fan installed in a bright Australian living room, clean interior design, natural light, lifestyle photography style",
+    "service_6": "A modern interconnected smoke alarm installed on a white ceiling in an Australian home, clean and simple composition, close-up product shot",
+    "service_7": "Modern commercial office space in Australia with professional electrical fit-out, LED panel lighting, clean workstations, wide angle interior shot",
+    "service_8": "A split system air conditioning unit installed on a white wall in a modern Australian living room, clean and minimal, interior photography",
+    "service_9": "Industrial 3 phase power switchboard in an Australian workshop, heavy duty electrical equipment, professional installation, detail shot of wiring"
+  }
+}
