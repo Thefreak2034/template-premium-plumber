@@ -1,0 +1,44 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="cctv-screen" x1="40" y1="20" x2="90" y2="55" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#1a2540"/><stop offset="1" stop-color="#0e1220"/>
+            </linearGradient>
+            <radialGradient id="cctv-lens" cx="115" cy="80" r="8" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#5a9aff" stop-opacity=".8"/><stop offset="1" stop-color="#1646D2" stop-opacity=".2"/>
+            </radialGradient>
+        </defs>
+        <!-- Monitor body -->
+        <rect x="30" y="20" width="60" height="42" rx="3" fill="url(#cctv-screen)" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
+        <!-- Screen inner -->
+        <rect x="35" y="25" width="50" height="32" rx="1" fill="rgba(10,15,30,.95)"/>
+        <!-- Live feed of pipe interior (concentric circles + glow) -->
+        <circle cx="60" cy="41" r="12" fill="none" stroke="rgba(90,154,255,.6)" stroke-width="1"/>
+        <circle cx="60" cy="41" r="8" fill="none" stroke="rgba(90,154,255,.5)" stroke-width=".8"/>
+        <circle cx="60" cy="41" r="4" fill="rgba(90,154,255,.3)" stroke="rgba(90,154,255,.7)" stroke-width=".6"/>
+        <!-- Recording dot -->
+        <circle cx="40" cy="30" r="1.5" fill="#dc2626"/>
+        <text x="44" y="32" fill="rgba(255,255,255,.6)" font-size="4" font-family="monospace">REC</text>
+        <!-- Monitor stand -->
+        <rect x="50" y="62" width="20" height="6" rx="1" fill="rgba(255,255,255,.1)"/>
+        <rect x="40" y="66" width="40" height="2" rx="1" fill="rgba(255,255,255,.08)"/>
+        <!-- Cable from monitor to drain (curving) -->
+        <path d="M90 45 C100 45 105 55 105 65 C105 75 110 78 115 80" stroke="rgba(245,158,11,.7)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <!-- Cable coiled visual -->
+        <ellipse cx="105" cy="62" rx="3" ry="1.5" fill="none" stroke="rgba(245,158,11,.4)" stroke-width=".6"/>
+        <ellipse cx="108" cy="68" rx="3" ry="1.5" fill="none" stroke="rgba(245,158,11,.35)" stroke-width=".6"/>
+        <!-- Drain access port on right -->
+        <ellipse cx="120" cy="95" rx="20" ry="6" fill="rgba(20,28,50,.95)" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
+        <ellipse cx="120" cy="93" rx="16" ry="4" fill="rgba(10,15,30,.9)"/>
+        <!-- Camera head (entering drain) -->
+        <circle cx="115" cy="80" r="6" fill="url(#cctv-lens)" stroke="rgba(255,255,255,.4)" stroke-width="1"/>
+        <circle cx="115" cy="80" r="3" fill="rgba(20,28,50,.8)"/>
+        <circle cx="115" cy="80" r="1.5" fill="#5a9aff"/>
+        <!-- LED ring around camera -->
+        <circle cx="115" cy="80" r="7.5" fill="none" stroke="rgba(255,255,255,.5)" stroke-width=".5"/>
+        <circle cx="110" cy="76" r=".5" fill="white"/>
+        <circle cx="120" cy="76" r=".5" fill="white"/>
+        <circle cx="120" cy="84" r=".5" fill="white"/>
+        <circle cx="110" cy="84" r=".5" fill="white"/>
+        <!-- Floor line -->
+        <line x1="20" y1="98" x2="145" y2="98" stroke="rgba(255,255,255,.06)" stroke-width=".5"/>
+    </svg>

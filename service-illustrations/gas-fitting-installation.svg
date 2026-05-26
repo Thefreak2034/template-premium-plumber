@@ -1,0 +1,34 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="gf-flame" x1="80" y1="20" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#fbbf24"/><stop offset=".5" stop-color="#f59e0b"/><stop offset="1" stop-color="#dc2626"/>
+            </linearGradient>
+            <radialGradient id="gf-flame-glow" cx="80" cy="55" r="40" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#fbbf24" stop-opacity=".4"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/>
+            </radialGradient>
+        </defs>
+        <!-- Flame glow halo -->
+        <circle cx="80" cy="55" r="35" fill="url(#gf-flame-glow)"/>
+        <!-- Outer flame (large) -->
+        <path d="M80 18 C80 18 65 35 65 55 C65 70 72 80 80 80 C88 80 95 70 95 55 C95 35 80 18 80 18 Z" fill="url(#gf-flame)" opacity=".9"/>
+        <!-- Inner flame (yellow-white core) -->
+        <path d="M80 32 C80 32 72 45 72 58 C72 68 75 75 80 75 C85 75 88 68 88 58 C88 45 80 32 80 32 Z" fill="#fbbf24" opacity=".85"/>
+        <!-- Hot core (white) -->
+        <ellipse cx="80" cy="62" rx="3" ry="6" fill="white" opacity=".7"/>
+        <!-- Gas burner / pipe bottom -->
+        <rect x="65" y="80" width="30" height="6" rx="1" fill="rgba(20,28,50,.95)" stroke="rgba(255,255,255,.2)" stroke-width=".8"/>
+        <!-- Burner ports (small holes) -->
+        <circle cx="72" cy="83" r=".8" fill="#fbbf24"/>
+        <circle cx="78" cy="83" r=".8" fill="#fbbf24"/>
+        <circle cx="84" cy="83" r=".8" fill="#fbbf24"/>
+        <circle cx="90" cy="83" r=".8" fill="#fbbf24"/>
+        <!-- Gas pipe descending below burner -->
+        <rect x="76" y="86" width="8" height="20" fill="rgba(20,28,50,.9)" stroke="rgba(255,255,255,.2)" stroke-width=".8"/>
+        <!-- Brass isolation valve -->
+        <rect x="68" y="90" width="24" height="10" rx="2" fill="rgba(245,158,11,.3)" stroke="rgba(245,158,11,.6)" stroke-width="1"/>
+        <!-- Valve handle (T-shape) -->
+        <line x1="80" y1="86" x2="80" y2="90" stroke="rgba(245,158,11,.8)" stroke-width="2.5"/>
+        <line x1="74" y1="86" x2="86" y2="86" stroke="rgba(245,158,11,.8)" stroke-width="2.5" stroke-linecap="round"/>
+        <!-- Pipe continuing down -->
+        <rect x="76" y="100" width="8" height="10" fill="rgba(20,28,50,.9)" stroke="rgba(255,255,255,.2)" stroke-width=".8"/>
+    </svg>

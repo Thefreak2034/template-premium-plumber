@@ -1,0 +1,53 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="hj-unit" x1="20" y1="50" x2="60" y2="100" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#2a3a60"/><stop offset="1" stop-color="#1a2540"/>
+            </linearGradient>
+            <linearGradient id="hj-spray" x1="100" y1="65" x2="140" y2="85" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#5a9aff" stop-opacity=".8"/><stop offset="1" stop-color="#5a9aff" stop-opacity="0"/>
+            </linearGradient>
+        </defs>
+        <!-- Jetter unit body (compact tower on wheels) -->
+        <rect x="15" y="55" width="40" height="40" rx="2" fill="url(#hj-unit)" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
+        <!-- Top handle -->
+        <path d="M20 55 L20 47 L50 47 L50 55" stroke="rgba(255,255,255,.3)" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <!-- Control panel face -->
+        <rect x="22" y="62" width="26" height="14" rx="1" fill="rgba(10,15,30,.95)" stroke="rgba(255,255,255,.15)" stroke-width=".5"/>
+        <!-- Pressure gauge -->
+        <circle cx="32" cy="69" r="4" fill="none" stroke="rgba(90,154,255,.6)" stroke-width=".7"/>
+        <line x1="32" y1="69" x2="34" y2="66" stroke="#dc2626" stroke-width=".8"/>
+        <circle cx="32" cy="69" r=".5" fill="white"/>
+        <!-- Status LEDs -->
+        <circle cx="42" cy="67" r="1" fill="#22c55e"/>
+        <circle cx="42" cy="71" r="1" fill="rgba(245,158,11,.6)"/>
+        <!-- Trigger/start button -->
+        <rect x="25" y="80" width="20" height="8" rx="1" fill="rgba(220,38,38,.3)" stroke="rgba(220,38,38,.6)" stroke-width=".6"/>
+        <text x="35" y="86" fill="rgba(255,255,255,.6)" font-size="3" text-anchor="middle">START</text>
+        <!-- Wheels -->
+        <circle cx="22" cy="100" r="4" fill="rgba(20,15,10,.9)" stroke="rgba(255,255,255,.2)" stroke-width=".8"/>
+        <circle cx="48" cy="100" r="4" fill="rgba(20,15,10,.9)" stroke="rgba(255,255,255,.2)" stroke-width=".8"/>
+        <circle cx="22" cy="100" r="1.5" fill="rgba(255,255,255,.2)"/>
+        <circle cx="48" cy="100" r="1.5" fill="rgba(255,255,255,.2)"/>
+        <!-- High-pressure hose (thick black, curving to wand) -->
+        <path d="M55 70 C75 72, 85 78, 95 75" stroke="rgba(20,15,10,.9)" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <!-- Wand handle -->
+        <rect x="92" y="65" width="14" height="6" rx="1" fill="rgba(40,40,40,.9)" stroke="rgba(255,255,255,.2)" stroke-width=".6"/>
+        <!-- Brass nozzle -->
+        <rect x="106" y="66" width="8" height="4" rx=".5" fill="rgba(245,158,11,.7)" stroke="rgba(245,158,11,.9)" stroke-width=".5"/>
+        <!-- High-pressure water spray (cone of mist) -->
+        <path d="M114 68 L140 78 L140 64 Z" fill="url(#hj-spray)"/>
+        <!-- Mist droplets in spray -->
+        <circle cx="125" cy="68" r=".8" fill="#5a9aff" opacity=".7"/>
+        <circle cx="130" cy="72" r="1" fill="#5a9aff" opacity=".6"/>
+        <circle cx="135" cy="75" r=".6" fill="#5a9aff" opacity=".5"/>
+        <circle cx="120" cy="74" r=".7" fill="#5a9aff" opacity=".6"/>
+        <circle cx="128" cy="77" r=".5" fill="#5a9aff" opacity=".4"/>
+        <!-- Drain grate at right (target) -->
+        <rect x="125" y="100" width="20" height="5" rx="1" fill="rgba(20,28,50,.95)" stroke="rgba(255,255,255,.2)" stroke-width=".5"/>
+        <line x1="128" y1="100" x2="128" y2="105" stroke="rgba(255,255,255,.3)" stroke-width=".8"/>
+        <line x1="132" y1="100" x2="132" y2="105" stroke="rgba(255,255,255,.3)" stroke-width=".8"/>
+        <line x1="136" y1="100" x2="136" y2="105" stroke="rgba(255,255,255,.3)" stroke-width=".8"/>
+        <line x1="140" y1="100" x2="140" y2="105" stroke="rgba(255,255,255,.3)" stroke-width=".8"/>
+        <!-- Floor -->
+        <line x1="10" y1="110" x2="150" y2="110" stroke="rgba(255,255,255,.06)" stroke-width=".5"/>
+    </svg>

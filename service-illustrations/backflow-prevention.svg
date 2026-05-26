@@ -1,0 +1,49 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="bf-brass" x1="50" y1="40" x2="110" y2="90" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#fbbf24"/><stop offset=".5" stop-color="#f59e0b"/><stop offset="1" stop-color="#92400e"/>
+            </linearGradient>
+        </defs>
+        <!-- Outdoor wall background -->
+        <rect x="10" y="10" width="140" height="100" fill="rgba(40,40,40,.5)"/>
+        <!-- ─── Copper supply pipes (entering + exiting horizontally) ─── -->
+        <rect x="10" y="60" width="40" height="8" fill="#92400e" stroke="rgba(245,158,11,.6)" stroke-width=".5"/>
+        <rect x="10" y="62" width="40" height="4" fill="rgba(245,158,11,.7)"/>
+        <rect x="110" y="60" width="40" height="8" fill="#92400e" stroke="rgba(245,158,11,.6)" stroke-width=".5"/>
+        <rect x="110" y="62" width="40" height="4" fill="rgba(245,158,11,.7)"/>
+        <!-- ─── RPZ valve body (central horizontal cylinder with flanges) ─── -->
+        <!-- Inlet flange -->
+        <rect x="48" y="52" width="6" height="24" rx="1" fill="url(#bf-brass)" stroke="rgba(245,158,11,.7)" stroke-width=".8"/>
+        <circle cx="51" cy="56" r="1" fill="rgba(0,0,0,.5)"/>
+        <circle cx="51" cy="72" r="1" fill="rgba(0,0,0,.5)"/>
+        <!-- Main valve body -->
+        <rect x="54" y="50" width="52" height="28" rx="3" fill="url(#bf-brass)" stroke="rgba(245,158,11,.7)" stroke-width="1"/>
+        <!-- Body shine -->
+        <rect x="56" y="52" width="48" height="3" rx="1" fill="rgba(255,255,255,.4)"/>
+        <!-- Top test cock #1 -->
+        <rect x="62" y="40" width="6" height="12" rx="1" fill="url(#bf-brass)" stroke="rgba(245,158,11,.7)" stroke-width=".6"/>
+        <rect x="60" y="35" width="10" height="6" rx="1" fill="rgba(245,158,11,.8)" stroke="rgba(245,158,11,.9)" stroke-width=".5"/>
+        <line x1="59" y1="38" x2="71" y2="38" stroke="rgba(20,15,5,.4)" stroke-width=".8"/>
+        <!-- Top test cock #2 -->
+        <rect x="78" y="40" width="6" height="12" rx="1" fill="url(#bf-brass)" stroke="rgba(245,158,11,.7)" stroke-width=".6"/>
+        <rect x="76" y="35" width="10" height="6" rx="1" fill="rgba(245,158,11,.8)" stroke="rgba(245,158,11,.9)" stroke-width=".5"/>
+        <line x1="75" y1="38" x2="87" y2="38" stroke="rgba(20,15,5,.4)" stroke-width=".8"/>
+        <!-- Top test cock #3 -->
+        <rect x="92" y="40" width="6" height="12" rx="1" fill="url(#bf-brass)" stroke="rgba(245,158,11,.7)" stroke-width=".6"/>
+        <rect x="90" y="35" width="10" height="6" rx="1" fill="rgba(245,158,11,.8)" stroke="rgba(245,158,11,.9)" stroke-width=".5"/>
+        <line x1="89" y1="38" x2="101" y2="38" stroke="rgba(20,15,5,.4)" stroke-width=".8"/>
+        <!-- Outlet flange -->
+        <rect x="106" y="52" width="6" height="24" rx="1" fill="url(#bf-brass)" stroke="rgba(245,158,11,.7)" stroke-width=".8"/>
+        <circle cx="109" cy="56" r="1" fill="rgba(0,0,0,.5)"/>
+        <circle cx="109" cy="72" r="1" fill="rgba(0,0,0,.5)"/>
+        <!-- Bottom relief discharge -->
+        <rect x="76" y="78" width="8" height="14" rx="1" fill="url(#bf-brass)" stroke="rgba(245,158,11,.7)" stroke-width=".6"/>
+        <!-- ─── One-way flow arrows ─── -->
+        <!-- Arrow above valve (showing direction) -->
+        <line x1="62" y1="22" x2="98" y2="22" stroke="#5a9aff" stroke-width="2"/>
+        <path d="M93 18 L98 22 L93 26" stroke="#5a9aff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="80" y="18" fill="#5a9aff" font-size="6" font-weight="bold" text-anchor="middle">ONE-WAY</text>
+        <!-- Water drops below from relief valve -->
+        <circle cx="80" cy="100" r="1.2" fill="#5a9aff" opacity=".7"/>
+        <circle cx="82" cy="106" r="1" fill="#5a9aff" opacity=".5"/>
+    </svg>

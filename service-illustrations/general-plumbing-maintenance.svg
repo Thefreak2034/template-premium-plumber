@@ -1,0 +1,63 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="gp-tool" x1="20" y1="30" x2="140" y2="100" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#fbbf24"/><stop offset=".5" stop-color="#f59e0b"/><stop offset="1" stop-color="#92400e"/>
+            </linearGradient>
+            <linearGradient id="gp-chrome" x1="0" y1="0" x2="0" y2="1">
+                <stop stop-color="rgba(255,255,255,.4)"/><stop offset="1" stop-color="rgba(150,150,150,.2)"/>
+            </linearGradient>
+        </defs>
+        <!-- ─── Side-on tap on the LEFT (large) ─── -->
+        <!-- Wall mount -->
+        <rect x="10" y="40" width="6" height="40" rx="1" fill="rgba(255,255,255,.1)" stroke="rgba(255,255,255,.2)" stroke-width=".5"/>
+        <!-- Wall flange (brass) -->
+        <rect x="14" y="55" width="6" height="20" rx="1" fill="url(#gp-tool)" stroke="rgba(245,158,11,.7)" stroke-width=".6"/>
+        <!-- Tap body (horizontal, brass) -->
+        <rect x="20" y="57" width="35" height="14" rx="2" fill="url(#gp-tool)" stroke="rgba(245,158,11,.7)" stroke-width=".8"/>
+        <!-- Tap body shine -->
+        <rect x="22" y="59" width="31" height="3" rx="1" fill="rgba(255,255,255,.4)"/>
+        <!-- Handle block on top of tap -->
+        <rect x="30" y="44" width="14" height="13" rx="2" fill="url(#gp-tool)" stroke="rgba(245,158,11,.7)" stroke-width=".7"/>
+        <!-- Handle wheel/cap -->
+        <ellipse cx="37" cy="43" rx="10" ry="2.5" fill="url(#gp-tool)" stroke="rgba(245,158,11,.8)" stroke-width=".7"/>
+        <line x1="29" y1="43" x2="45" y2="43" stroke="rgba(20,15,5,.4)" stroke-width="1"/>
+        <line x1="37" y1="38" x2="37" y2="48" stroke="rgba(20,15,5,.4)" stroke-width="1"/>
+        <!-- Curved spout extending right then descending -->
+        <path d="M55 65 L70 65 L70 85" stroke="url(#gp-tool)" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <path d="M55 65 L70 65 L70 85" stroke="rgba(255,255,255,.3)" stroke-width="1.5" fill="none"/>
+        <!-- Spout tip -->
+        <ellipse cx="70" cy="86" rx="4" ry="1.5" fill="rgba(20,15,5,.7)" stroke="rgba(245,158,11,.6)" stroke-width=".5"/>
+        <!-- ─── Wrench on the RIGHT (adjustable monkey wrench, side view) ─── -->
+        <!-- Wrench handle (long shaft) -->
+        <path d="M115 100 L100 50" stroke="url(#gp-chrome)" stroke-width="8" stroke-linecap="round"/>
+        <path d="M115 100 L100 50" stroke="rgba(255,255,255,.4)" stroke-width="2.5" stroke-linecap="round"/>
+        <!-- Fixed upper jaw -->
+        <path d="M93 50 L107 50 L107 38 L101 38 L101 44 L93 44 Z" fill="url(#gp-chrome)" stroke="rgba(255,255,255,.4)" stroke-width=".8"/>
+        <!-- Movable lower jaw (offset slightly to show adjustment) -->
+        <path d="M95 56 L109 56 L109 68 L105 68 L105 62 L95 62 Z" fill="url(#gp-chrome)" stroke="rgba(255,255,255,.4)" stroke-width=".8"/>
+        <!-- Worm gear adjuster (the knurled wheel between jaws) -->
+        <rect x="95" y="50" width="14" height="6" rx="1" fill="rgba(40,40,40,.9)" stroke="rgba(255,255,255,.3)" stroke-width=".5"/>
+        <!-- Adjuster knurl tick marks -->
+        <line x1="97" y1="51" x2="97" y2="55" stroke="rgba(255,255,255,.5)" stroke-width=".4"/>
+        <line x1="99" y1="51" x2="99" y2="55" stroke="rgba(255,255,255,.5)" stroke-width=".4"/>
+        <line x1="101" y1="51" x2="101" y2="55" stroke="rgba(255,255,255,.5)" stroke-width=".4"/>
+        <line x1="103" y1="51" x2="103" y2="55" stroke="rgba(255,255,255,.5)" stroke-width=".4"/>
+        <line x1="105" y1="51" x2="105" y2="55" stroke="rgba(255,255,255,.5)" stroke-width=".4"/>
+        <line x1="107" y1="51" x2="107" y2="55" stroke="rgba(255,255,255,.5)" stroke-width=".4"/>
+        <!-- Handle end cap -->
+        <circle cx="115" cy="100" r="3" fill="url(#gp-chrome)" stroke="rgba(255,255,255,.4)" stroke-width=".5"/>
+        <!-- Handle grip texture (diagonal lines) -->
+        <line x1="105" y1="78" x2="115" y2="82" stroke="rgba(0,0,0,.3)" stroke-width=".5"/>
+        <line x1="107" y1="83" x2="117" y2="87" stroke="rgba(0,0,0,.3)" stroke-width=".5"/>
+        <line x1="109" y1="88" x2="119" y2="92" stroke="rgba(0,0,0,.3)" stroke-width=".5"/>
+        <line x1="111" y1="93" x2="121" y2="97" stroke="rgba(0,0,0,.3)" stroke-width=".5"/>
+        <!-- Pipe wrench gripping a brass fitting (showing maintenance in action) -->
+        <rect x="125" y="35" width="14" height="6" rx="1" fill="url(#gp-tool)" stroke="rgba(245,158,11,.7)" stroke-width=".5"/>
+        <rect x="127" y="33" width="10" height="3" rx=".3" fill="url(#gp-tool)" stroke="rgba(245,158,11,.7)" stroke-width=".4"/>
+        <rect x="127" y="40" width="10" height="3" rx=".3" fill="url(#gp-tool)" stroke="rgba(245,158,11,.7)" stroke-width=".4"/>
+        <!-- Hex pattern on fitting (showing it's been worked on) -->
+        <line x1="130" y1="36" x2="132" y2="36" stroke="rgba(20,15,5,.5)" stroke-width=".5"/>
+        <line x1="134" y1="36" x2="136" y2="36" stroke="rgba(20,15,5,.5)" stroke-width=".5"/>
+        <line x1="130" y1="40" x2="132" y2="40" stroke="rgba(20,15,5,.5)" stroke-width=".5"/>
+        <line x1="134" y1="40" x2="136" y2="40" stroke="rgba(20,15,5,.5)" stroke-width=".5"/>
+    </svg>

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="hw-tank" x1="60" y1="20" x2="100" y2="110" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#1a2540"/><stop offset="1" stop-color="#0e1220"/>
+            </linearGradient>
+            <linearGradient id="hw-bulb" x1="80" y1="80" x2="80" y2="100" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#5a9aff"/><stop offset="1" stop-color="#1646D2"/>
+            </linearGradient>
+        </defs>
+        <!-- Steam rising from top -->
+        <path d="M68 14 C66 10 70 8 72 12 C74 16 70 18 68 14 Z" fill="rgba(255,255,255,.18)"/>
+        <path d="M84 8 C82 4 86 2 88 6 C90 10 86 12 84 8 Z" fill="rgba(255,255,255,.15)"/>
+        <path d="M76 18 C74 14 78 12 80 16 C82 20 78 22 76 18 Z" fill="rgba(255,255,255,.12)"/>
+        <!-- Tank body (tall rounded cylinder) -->
+        <rect x="60" y="22" width="40" height="80" rx="18" fill="url(#hw-tank)" stroke="rgba(255,255,255,.15)" stroke-width="1"/>
+        <!-- Top cap ellipse -->
+        <ellipse cx="80" cy="24" rx="18" ry="4" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.1)" stroke-width=".7"/>
+        <!-- Inlet pipe top -->
+        <rect x="76" y="14" width="8" height="8" rx="1" fill="rgba(255,255,255,.1)" stroke="rgba(255,255,255,.15)" stroke-width=".7"/>
+        <!-- Thermometer stem (centred vertically) -->
+        <rect x="78" y="42" width="4" height="34" rx="1.5" fill="rgba(22,70,210,.2)" stroke="rgba(22,70,210,.4)" stroke-width=".6"/>
+        <!-- Thermometer bulb (large, glowing) -->
+        <circle cx="80" cy="84" r="8" fill="url(#hw-bulb)" stroke="rgba(22,70,210,.5)" stroke-width="1"/>
+        <circle cx="80" cy="84" r="4" fill="#5a9aff" opacity=".8"/>
+        <circle cx="78" cy="82" r="1.5" fill="white" opacity=".7"/>
+        <!-- Temp tick marks on stem -->
+        <line x1="74" y1="50" x2="78" y2="50" stroke="rgba(255,255,255,.2)" stroke-width=".5"/>
+        <line x1="74" y1="58" x2="78" y2="58" stroke="rgba(255,255,255,.2)" stroke-width=".5"/>
+        <line x1="74" y1="66" x2="78" y2="66" stroke="rgba(255,255,255,.2)" stroke-width=".5"/>
+        <!-- Outlet pipes bottom corners -->
+        <path d="M60 90 L50 90 L50 105" stroke="rgba(255,255,255,.15)" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <path d="M100 90 L110 90 L110 105" stroke="rgba(255,255,255,.15)" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <circle cx="50" cy="105" r="3" fill="rgba(22,70,210,.2)" stroke="rgba(22,70,210,.4)" stroke-width=".6"/>
+        <circle cx="110" cy="105" r="3" fill="rgba(245,158,11,.2)" stroke="rgba(245,158,11,.4)" stroke-width=".6"/>
+        <!-- Base -->
+        <ellipse cx="80" cy="102" rx="18" ry="3" fill="rgba(255,255,255,.04)" stroke="rgba(255,255,255,.08)" stroke-width=".5"/>
+    </svg>

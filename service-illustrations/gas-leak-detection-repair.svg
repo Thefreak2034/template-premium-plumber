@@ -1,0 +1,39 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="gl-detector" x1="60" y1="20" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#1a2540"/><stop offset="1" stop-color="#0e1220"/>
+            </linearGradient>
+            <radialGradient id="gl-alert" cx="115" cy="50" r="15" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#dc2626" stop-opacity=".6"/><stop offset="1" stop-color="#dc2626" stop-opacity="0"/>
+            </radialGradient>
+        </defs>
+        <!-- Pipe with gas leak in background -->
+        <rect x="100" y="48" width="50" height="10" rx="1" fill="rgba(20,28,50,.7)" stroke="rgba(255,255,255,.15)" stroke-width=".7"/>
+        <!-- Gas leak gradient -->
+        <circle cx="115" cy="50" r="12" fill="url(#gl-alert)"/>
+        <!-- Tiny gas particles -->
+        <circle cx="118" cy="45" r="1" fill="#dc2626" opacity=".7"/>
+        <circle cx="112" cy="42" r=".8" fill="#dc2626" opacity=".6"/>
+        <circle cx="120" cy="40" r=".6" fill="#dc2626" opacity=".5"/>
+        <!-- Detector body (handheld) -->
+        <rect x="35" y="40" width="55" height="50" rx="4" fill="url(#gl-detector)" stroke="rgba(255,255,255,.2)" stroke-width="1.2"/>
+        <!-- Screen -->
+        <rect x="40" y="48" width="45" height="22" rx="1.5" fill="rgba(10,15,30,.95)" stroke="rgba(255,255,255,.1)" stroke-width=".5"/>
+        <!-- Reading display (PPM) -->
+        <text x="62" y="62" fill="#22c55e" font-size="9" font-weight="bold" font-family="monospace" text-anchor="middle">GAS</text>
+        <text x="62" y="67" fill="#22c55e" font-size="3" font-family="monospace" text-anchor="middle">450 ppm</text>
+        <!-- Status bar (red = alert) -->
+        <rect x="42" y="68" width="41" height="1.5" fill="rgba(220,38,38,.5)"/>
+        <!-- Buttons row -->
+        <circle cx="48" cy="80" r="2.5" fill="rgba(255,255,255,.15)" stroke="rgba(255,255,255,.3)" stroke-width=".5"/>
+        <circle cx="60" cy="80" r="2.5" fill="rgba(34,197,94,.3)" stroke="rgba(34,197,94,.6)" stroke-width=".5"/>
+        <circle cx="72" cy="80" r="2.5" fill="rgba(220,38,38,.3)" stroke="rgba(220,38,38,.6)" stroke-width=".5"/>
+        <!-- Flexible sensor probe (curving from top of detector to leak) -->
+        <path d="M62 40 C62 30 90 25 105 38 L105 48" stroke="rgba(255,255,255,.3)" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <!-- Probe segments visual -->
+        <circle cx="75" cy="30" r="1.2" fill="rgba(255,255,255,.2)"/>
+        <circle cx="90" cy="28" r="1.2" fill="rgba(255,255,255,.2)"/>
+        <circle cx="100" cy="35" r="1.2" fill="rgba(255,255,255,.2)"/>
+        <!-- Probe tip -->
+        <rect x="103" y="40" width="4" height="8" rx=".5" fill="rgba(245,158,11,.3)" stroke="rgba(245,158,11,.6)" stroke-width=".6"/>
+    </svg>

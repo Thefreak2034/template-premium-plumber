@@ -1,0 +1,32 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="em-tri-grad" x1="80" y1="20" x2="80" y2="95" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#fbbf24"/><stop offset="1" stop-color="#f59e0b"/>
+            </linearGradient>
+            <filter id="em-glow"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+        </defs>
+        <!-- Outer warning triangle (glow border) -->
+        <path d="M80 18 L115 82 L45 82 Z" fill="none" stroke="rgba(245,158,11,.4)" stroke-width="2" filter="url(#em-glow)"/>
+        <!-- Inner triangle fill -->
+        <path d="M80 28 L108 76 L52 76 Z" fill="rgba(245,158,11,.08)"/>
+        <!-- Wrench (crossed adjustable wrench inside triangle) -->
+        <g transform="translate(80, 55)">
+            <!-- Wrench body -->
+            <rect x="-3" y="-15" width="6" height="22" rx="1" fill="url(#em-tri-grad)" stroke="rgba(245,158,11,.6)" stroke-width=".8"/>
+            <!-- Top jaw (open-end) -->
+            <path d="M-6 -18 L-6 -10 L-3 -10 L-3 -14 L3 -14 L3 -10 L6 -10 L6 -18 Z" fill="url(#em-tri-grad)" stroke="rgba(245,158,11,.6)" stroke-width=".8"/>
+            <!-- Bottom ring jaw -->
+            <circle cx="0" cy="12" r="6" fill="rgba(20,28,50,.5)" stroke="url(#em-tri-grad)" stroke-width="2"/>
+            <circle cx="0" cy="12" r="2.5" fill="rgba(245,158,11,.3)"/>
+        </g>
+        <!-- Spark particles around triangle -->
+        <circle cx="50" cy="55" r="1.5" fill="#fbbf24" opacity=".7"/>
+        <circle cx="115" cy="50" r="1.2" fill="#fbbf24" opacity=".6"/>
+        <circle cx="42" cy="78" r="1.8" fill="#fbbf24" opacity=".5"/>
+        <circle cx="120" cy="80" r="1.5" fill="#fbbf24" opacity=".5"/>
+        <circle cx="60" cy="92" r="1.2" fill="#fbbf24" opacity=".4"/>
+        <circle cx="100" cy="93" r="1.5" fill="#fbbf24" opacity=".4"/>
+        <!-- 24/7 ribbon arc beneath triangle -->
+        <path d="M30 95 C30 95 50 88 80 88 C110 88 130 95 130 95" stroke="rgba(245,158,11,.25)" stroke-width="1.2" fill="none"/>
+        <text x="80" y="108" fill="#fbbf24" font-size="9" font-weight="bold" text-anchor="middle" opacity=".8">24/7</text>
+    </svg>

@@ -1,0 +1,60 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="wf-housing" x1="40" y1="30" x2="120" y2="90" gradientUnits="userSpaceOnUse">
+                <stop stop-color="rgba(255,255,255,.85)"/><stop offset="1" stop-color="rgba(200,200,200,.6)"/>
+            </linearGradient>
+            <linearGradient id="wf-water" x1="0" y1="0" x2="0" y2="1">
+                <stop stop-color="#5a9aff" stop-opacity=".6"/><stop offset="1" stop-color="#1646D2" stop-opacity=".4"/>
+            </linearGradient>
+        </defs>
+        <!-- Cabinet interior background -->
+        <rect x="10" y="10" width="140" height="100" fill="rgba(20,28,50,.5)"/>
+        <!-- Cabinet inner shadow -->
+        <rect x="15" y="15" width="130" height="90" fill="rgba(10,15,30,.3)"/>
+        <!-- Marble benchtop visible at top -->
+        <rect x="10" y="10" width="140" height="8" fill="rgba(255,255,255,.15)" stroke="rgba(255,255,255,.3)" stroke-width=".5"/>
+        <path d="M30 14 Q50 12, 70 14 T120 14" stroke="rgba(150,150,150,.4)" stroke-width=".5" fill="none"/>
+        <!-- ─── Twin filter housings (cylinders) ─── -->
+        <!-- Top mounting bracket -->
+        <rect x="40" y="22" width="80" height="6" rx="1" fill="rgba(245,158,11,.5)" stroke="rgba(245,158,11,.7)" stroke-width=".6"/>
+        <!-- Left filter housing -->
+        <ellipse cx="60" cy="30" rx="13" ry="3" fill="url(#wf-housing)" stroke="rgba(255,255,255,.5)" stroke-width=".7"/>
+        <rect x="47" y="30" width="26" height="55" fill="url(#wf-housing)" stroke="rgba(255,255,255,.5)" stroke-width=".7"/>
+        <ellipse cx="60" cy="85" rx="13" ry="3" fill="url(#wf-housing)" stroke="rgba(255,255,255,.5)" stroke-width=".7"/>
+        <!-- Filter cartridge inside (visible through housing) -->
+        <rect x="52" y="35" width="16" height="45" rx=".5" fill="rgba(255,255,255,.5)" stroke="rgba(255,255,255,.2)" stroke-width=".3"/>
+        <!-- Cartridge fibers texture -->
+        <line x1="55" y1="40" x2="65" y2="40" stroke="rgba(200,200,200,.4)" stroke-width=".3"/>
+        <line x1="55" y1="45" x2="65" y2="45" stroke="rgba(200,200,200,.4)" stroke-width=".3"/>
+        <line x1="55" y1="50" x2="65" y2="50" stroke="rgba(200,200,200,.4)" stroke-width=".3"/>
+        <line x1="55" y1="55" x2="65" y2="55" stroke="rgba(200,200,200,.4)" stroke-width=".3"/>
+        <line x1="55" y1="60" x2="65" y2="60" stroke="rgba(200,200,200,.4)" stroke-width=".3"/>
+        <line x1="55" y1="65" x2="65" y2="65" stroke="rgba(200,200,200,.4)" stroke-width=".3"/>
+        <line x1="55" y1="70" x2="65" y2="70" stroke="rgba(200,200,200,.4)" stroke-width=".3"/>
+        <line x1="55" y1="75" x2="65" y2="75" stroke="rgba(200,200,200,.4)" stroke-width=".3"/>
+        <!-- Right filter housing -->
+        <ellipse cx="100" cy="30" rx="13" ry="3" fill="url(#wf-housing)" stroke="rgba(255,255,255,.5)" stroke-width=".7"/>
+        <rect x="87" y="30" width="26" height="55" fill="url(#wf-housing)" stroke="rgba(255,255,255,.5)" stroke-width=".7"/>
+        <ellipse cx="100" cy="85" rx="13" ry="3" fill="url(#wf-housing)" stroke="rgba(255,255,255,.5)" stroke-width=".7"/>
+        <rect x="92" y="35" width="16" height="45" rx=".5" fill="rgba(255,255,255,.5)" stroke="rgba(255,255,255,.2)" stroke-width=".3"/>
+        <line x1="95" y1="40" x2="105" y2="40" stroke="rgba(200,200,200,.4)" stroke-width=".3"/>
+        <line x1="95" y1="50" x2="105" y2="50" stroke="rgba(200,200,200,.4)" stroke-width=".3"/>
+        <line x1="95" y1="60" x2="105" y2="60" stroke="rgba(200,200,200,.4)" stroke-width=".3"/>
+        <line x1="95" y1="70" x2="105" y2="70" stroke="rgba(200,200,200,.4)" stroke-width=".3"/>
+        <!-- ─── Copper plumbing connections ─── -->
+        <!-- Inlet (left, from wall) -->
+        <path d="M30 28 L47 28" stroke="#92400e" stroke-width="3" stroke-linecap="round"/>
+        <path d="M30 28 L47 28" stroke="rgba(245,158,11,.7)" stroke-width="1.5"/>
+        <!-- Outlet (right, to faucet) -->
+        <path d="M113 28 L130 28" stroke="#92400e" stroke-width="3" stroke-linecap="round"/>
+        <path d="M113 28 L130 28" stroke="rgba(245,158,11,.7)" stroke-width="1.5"/>
+        <!-- Inter-filter pipe at bottom -->
+        <path d="M60 85 L60 95 L100 95 L100 85" stroke="#92400e" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M60 85 L60 95 L100 95 L100 85" stroke="rgba(245,158,11,.6)" stroke-width="1.5" fill="none"/>
+        <!-- Brass isolation valves -->
+        <circle cx="40" cy="28" r="2" fill="rgba(245,158,11,.5)" stroke="rgba(245,158,11,.8)" stroke-width=".6"/>
+        <circle cx="120" cy="28" r="2" fill="rgba(245,158,11,.5)" stroke="rgba(245,158,11,.8)" stroke-width=".6"/>
+        <!-- Subtle water flow indicators (drops) -->
+        <circle cx="35" cy="32" r=".7" fill="#5a9aff" opacity=".6"/>
+        <circle cx="125" cy="32" r=".7" fill="#5a9aff" opacity=".6"/>
+    </svg>

@@ -1,0 +1,55 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="sw-concrete" x1="0" y1="20" x2="0" y2="100" gradientUnits="userSpaceOnUse">
+                <stop stop-color="rgba(255,255,255,.1)"/><stop offset="1" stop-color="rgba(255,255,255,.05)"/>
+            </linearGradient>
+            <linearGradient id="sw-water" x1="80" y1="20" x2="80" y2="60" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#5a9aff" stop-opacity=".5"/><stop offset="1" stop-color="#1646D2" stop-opacity=".15"/>
+            </linearGradient>
+        </defs>
+        <!-- Concrete driveway -->
+        <rect x="10" y="10" width="140" height="100" fill="url(#sw-concrete)" stroke="rgba(255,255,255,.1)" stroke-width=".5"/>
+        <!-- Subtle concrete texture (cracks/joints) -->
+        <line x1="30" y1="10" x2="30" y2="110" stroke="rgba(255,255,255,.06)" stroke-width=".4"/>
+        <line x1="130" y1="10" x2="130" y2="110" stroke="rgba(255,255,255,.06)" stroke-width=".4"/>
+        <line x1="10" y1="40" x2="150" y2="40" stroke="rgba(255,255,255,.06)" stroke-width=".4"/>
+        <line x1="10" y1="80" x2="150" y2="80" stroke="rgba(255,255,255,.06)" stroke-width=".4"/>
+        <!-- Native plants on left -->
+        <path d="M15 90 L17 75 L19 90" stroke="rgba(34,197,94,.5)" stroke-width=".8" fill="none"/>
+        <path d="M22 85 L24 70 L26 85" stroke="rgba(34,197,94,.4)" stroke-width=".7" fill="none"/>
+        <!-- Native plants on right -->
+        <path d="M138 85 L140 70 L142 85" stroke="rgba(34,197,94,.5)" stroke-width=".8" fill="none"/>
+        <path d="M145 90 L147 75 L149 90" stroke="rgba(34,197,94,.4)" stroke-width=".7" fill="none"/>
+        <!-- Water pooling on surface (showing it flowing toward drain) -->
+        <ellipse cx="80" cy="35" rx="35" ry="6" fill="url(#sw-water)"/>
+        <!-- Water flow arrows -->
+        <path d="M50 25 L80 50" stroke="#5a9aff" stroke-width="1" opacity=".5"/>
+        <path d="M110 25 L80 50" stroke="#5a9aff" stroke-width="1" opacity=".5"/>
+        <path d="M80 18 L80 48" stroke="#5a9aff" stroke-width="1" opacity=".5"/>
+        <!-- ─── Linear drain grate (horizontal, central) ─── -->
+        <!-- Recessed channel -->
+        <rect x="25" y="58" width="110" height="14" rx="1" fill="rgba(10,15,30,.95)" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
+        <!-- Grate inset -->
+        <rect x="27" y="60" width="106" height="10" fill="rgba(20,28,50,.95)"/>
+        <!-- Grate slats (vertical lines) -->
+        <line x1="32" y1="60" x2="32" y2="70" stroke="rgba(255,255,255,.5)" stroke-width="1.5"/>
+        <line x1="40" y1="60" x2="40" y2="70" stroke="rgba(255,255,255,.55)" stroke-width="1.5"/>
+        <line x1="48" y1="60" x2="48" y2="70" stroke="rgba(255,255,255,.6)" stroke-width="1.5"/>
+        <line x1="56" y1="60" x2="56" y2="70" stroke="rgba(255,255,255,.6)" stroke-width="1.5"/>
+        <line x1="64" y1="60" x2="64" y2="70" stroke="rgba(255,255,255,.6)" stroke-width="1.5"/>
+        <line x1="72" y1="60" x2="72" y2="70" stroke="rgba(255,255,255,.6)" stroke-width="1.5"/>
+        <line x1="80" y1="60" x2="80" y2="70" stroke="rgba(255,255,255,.65)" stroke-width="1.5"/>
+        <line x1="88" y1="60" x2="88" y2="70" stroke="rgba(255,255,255,.6)" stroke-width="1.5"/>
+        <line x1="96" y1="60" x2="96" y2="70" stroke="rgba(255,255,255,.6)" stroke-width="1.5"/>
+        <line x1="104" y1="60" x2="104" y2="70" stroke="rgba(255,255,255,.6)" stroke-width="1.5"/>
+        <line x1="112" y1="60" x2="112" y2="70" stroke="rgba(255,255,255,.6)" stroke-width="1.5"/>
+        <line x1="120" y1="60" x2="120" y2="70" stroke="rgba(255,255,255,.55)" stroke-width="1.5"/>
+        <line x1="128" y1="60" x2="128" y2="70" stroke="rgba(255,255,255,.5)" stroke-width="1.5"/>
+        <!-- Grate end caps -->
+        <rect x="25" y="58" width="3" height="14" fill="rgba(255,255,255,.15)"/>
+        <rect x="132" y="58" width="3" height="14" fill="rgba(255,255,255,.15)"/>
+        <!-- Water entering drain -->
+        <ellipse cx="80" cy="58" rx="60" ry="2" fill="rgba(90,154,255,.3)"/>
+        <!-- Underground drainage suggestion -->
+        <path d="M60 80 L60 100 M100 80 L100 100" stroke="rgba(255,255,255,.1)" stroke-width="6" stroke-dasharray="2 2"/>
+    </svg>

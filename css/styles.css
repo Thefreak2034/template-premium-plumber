@@ -882,11 +882,20 @@ ul {
   pointer-events: none;
 }
 
-.service-img-placeholder svg {
+.service-img-placeholder svg,
+.service-img-placeholder .service-illustration {
   width: 70%;
   height: 70%;
   position: relative;
   z-index: 1;
+}
+
+/* Override the .service-img-wrap img rule for our file-based service illustrations
+   so they sit centred at 70% rather than being object-fit: cover stretched/cropped. */
+.service-img-wrap img.service-illustration {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
 }
 
 .service-body {
