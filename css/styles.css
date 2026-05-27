@@ -632,14 +632,14 @@ ul {
   mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
 }
 
-/* Mobile: keep object-fit cover but scale the whole image down ~25%.
-   Pure cover on narrow viewports zooms too far into a blur of copper;
-   pure contain shrinks the image into a tiny letterboxed square.
-   Scaling the cover-filled image gives a middle ground — still fills
-   most of the hero but you can actually read the pipework. */
+/* Mobile: cover-fill + scale down ~40% AND shift up.
+   The image is positioned by translate(-50%, -50%) so it centres in the
+   wrapper — but the wrapper spans hero + stats, so geometric centre
+   sits BELOW the headline. Shifting the Y translate from -50% to -65%
+   pulls the image up behind the headline where we want it. */
 @media (max-width: 768px) {
   .hero-bg-anim {
-    transform: translate(-50%, -50%) scale(.75);
+    transform: translate(-50%, -65%) scale(.6);
     transform-origin: center center;
   }
 }
