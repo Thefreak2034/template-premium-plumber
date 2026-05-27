@@ -613,34 +613,30 @@ ul {
   background: var(--bg);
 }
 
-/* ── Copper pipework background image ── */
-.hero-stats-wrap::before {
-  content: '';
+/* ── Hero background image (static — sculptural copper pipework) ── */
+.hero-bg-anim {
   position: absolute;
-  inset: 0;
-  background-image: url('../images/plumbing-premium-pipes-bg.webp');
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* Push image up so the bottom-left text/watermark is cropped out */
-  background-position: top center;
-  opacity: .6;
-  pointer-events: none;
-  z-index: 0;
-  /* Mask: fully visible at top, fades out bottom 35% to hide watermark text */
-  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 55%, rgba(0,0,0,0) 90%);
-  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 55%, rgba(0,0,0,0) 90%);
-  /* Subtle slow pulse on the base layer */
-  animation: circuit-breathe 6s ease-in-out infinite;
-}
-
-/* ── Canvas layer for animated pulse orbs ── */
-.circuit-pulse {
-  position: absolute;
-  inset: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  opacity: .55;
   pointer-events: none;
+  user-select: none;
   z-index: 0;
+  /* Fade out the lower 25% so the image transitions smoothly into the dark stats section */
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
+}
+
+/* Mobile: keep contain + centre — portrait viewports already letterbox naturally. */
+@media (max-width: 768px) {
+  .hero-bg-anim {
+    object-position: center center;
+  }
 }
 
 /* ── Hero section (inside wrapper) ── */
@@ -652,22 +648,19 @@ ul {
   overflow: hidden;
 }
 
-/* Dark vignette overlay — covers entire wrapper (hero + stats) */
+/* Dark vignette overlay — covers entire wrapper (hero + stats).
+   Heavier darkening layered over the bright copper image so headline
+   sits cleanly against a moody backdrop while warm highlights still
+   peek through at the edges. */
 .hero-glow {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 80% 60% at 50% 40%, transparent 0%, rgba(10,11,20,.55) 100%);
+    linear-gradient(180deg, rgba(10,11,20,.45) 0%, rgba(10,11,20,.65) 100%),
+    radial-gradient(ellipse 80% 60% at 50% 40%, rgba(10,11,20,.35) 0%, rgba(10,11,20,.75) 100%);
   pointer-events: none;
   z-index: 0;
 }
-
-/* Base circuit image — gentle brightness pulse */
-@keyframes circuit-breathe {
-  0%, 100% { opacity: .5;  filter: brightness(1); }
-  50%      { opacity: .65; filter: brightness(1.15); }
-}
-
 
 .hero-content {
   position: relative;
