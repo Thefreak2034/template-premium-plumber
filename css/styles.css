@@ -623,7 +623,7 @@ ul {
   height: 100%;
   object-fit: cover;
   object-position: center center;
-  opacity: .7;
+  opacity: .8;
   pointer-events: none;
   user-select: none;
   z-index: 0;
@@ -632,14 +632,15 @@ ul {
   mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
 }
 
-/* Mobile: switch to contain so the full pipework composition is visible —
-   cover on narrow portrait viewports zooms so far in it just reads as
-   a blur of copper. Contain letterboxes top/bottom against the dark
-   wrapper which matches the image background. */
+/* Mobile: keep object-fit cover but scale the whole image down ~25%.
+   Pure cover on narrow viewports zooms too far into a blur of copper;
+   pure contain shrinks the image into a tiny letterboxed square.
+   Scaling the cover-filled image gives a middle ground — still fills
+   most of the hero but you can actually read the pipework. */
 @media (max-width: 768px) {
   .hero-bg-anim {
-    object-fit: contain;
-    object-position: center center;
+    transform: translate(-50%, -50%) scale(.75);
+    transform-origin: center center;
   }
 }
 
